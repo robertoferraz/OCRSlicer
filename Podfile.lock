@@ -1,0 +1,16 @@
+PODS:
+  - TesseractOCRiOS (4.0.0)
+
+DEPENDENCIES:
+  - TesseractOCRiOS (= 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TesseractOCRiOS
+
+SPEC CHECKSUMS:
+  TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
+
+PODFILE CHECKSUM: 7cd3a256876fa64a21118d0d318efe79ef75cfeb
+
+COCOAPODS: 1.5.3
