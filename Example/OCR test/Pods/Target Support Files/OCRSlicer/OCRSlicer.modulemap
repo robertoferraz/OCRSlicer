@@ -1,6 +1,0 @@
-framework module OCRSlicer {
-  umbrella header "OCRSlicer-umbrella.h"
-
-  export *
-  module * { export * }
-}
