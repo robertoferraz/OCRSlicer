@@ -1,0 +1,6 @@
+framework module Pods_OCR_test {
+  umbrella header "Pods-OCR test-umbrella.h"
+
+  export *
+  module * { export * }
+}
