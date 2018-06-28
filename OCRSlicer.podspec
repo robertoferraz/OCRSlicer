@@ -91,7 +91,7 @@ DESC
   #
 
   s.source_files = "OCRSlicer", "OCRSlicer/**/*.{h,m,swift}"
-  s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "OCRSlicer/Example/**/*.*"
 
   # s.public_header_files = "Classes/**/*.h"
 
