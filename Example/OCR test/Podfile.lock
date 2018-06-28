@@ -4,25 +4,17 @@ PODS:
   - TesseractOCRiOS (4.0.0)
 
 DEPENDENCIES:
-  - OCRSlicer (from `https://github.com/robertoferraz/OCRSlicer`)
+  - OCRSlicer
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - OCRSlicer
     - TesseractOCRiOS
 
-EXTERNAL SOURCES:
-  OCRSlicer:
-    :git: https://github.com/robertoferraz/OCRSlicer
-
-CHECKOUT OPTIONS:
-  OCRSlicer:
-    :commit: 139984bc298d2cce231447f5ee99c6a2a3827912
-    :git: https://github.com/robertoferraz/OCRSlicer
-
 SPEC CHECKSUMS:
-  OCRSlicer: 186320225e041ffecd1e4504f7de334e393c368d
+  OCRSlicer: d440f6fa7b3e83ea9b802062c59d122b84b91e9c
   TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
 
-PODFILE CHECKSUM: 024bee80114b1a0c23c3a1389b3fec5daefcca98
+PODFILE CHECKSUM: 661bf88f7d3a6e04408a8180b3fc81189301fa57
 
 COCOAPODS: 1.5.3
