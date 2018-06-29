@@ -14,6 +14,22 @@ and run:
 ```pod install```
 
 
+Usage
+=================
+- Check the Example project to see how to use this library
+- You will need the trained data for your language, in the example folder you will find the data for english. Check the Tesseract page to get more trained data (https://github.com/gali8/Tesseract-OCR-iOS/wiki/Installation#importing-the-tessdata-folder)
+
+The library has two methods:
+
+One to just detect text and return images (slices) of the text found
+
+```public func slice(image: UIImage, completion: @escaping ((_: [UIImage]) -> Void))```
+
+The other runs the OCR returning the pair text and slice
+
+```public func sliceaAndOCR(image: UIImage, charWhitelist: String, charBlackList: String = "", completion: @escaping ((_: String, _: UIImage) -> Void))```
+
+
 License
 =================
 
