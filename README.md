@@ -8,9 +8,11 @@ Instalation
 =================
 
 Using cocoa pods just add the following line to your podfile
+
 ```pod 'OCRSlicer'```
 
 and run: 
+
 ```pod install```
 
 
@@ -29,6 +31,10 @@ The other runs the OCR returning the pair text and slice
 
 ```public func sliceaAndOCR(image: UIImage, charWhitelist: String, charBlackList: String = "", completion: @escaping ((_: String, _: UIImage) -> Void))```
 
+
+Screenshot of the example project, showing the original input image on the top, the detected text and the slices of the original image showing where it was found.
+
+![Screenshot](https://github.com/robertoferraz/OCRSlicer/blob/master/Screenshot.png)
 
 License
 =================
